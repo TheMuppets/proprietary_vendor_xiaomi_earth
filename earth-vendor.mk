@@ -372,7 +372,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/earth/proprietary/vendor/etc/init/vendor.silead.hardware.fingerprintext@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.silead.hardware.fingerprintext@1.0-service.rc \
     vendor/xiaomi/earth/proprietary/vendor/etc/init/vpud.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vpud.rc \
     vendor/xiaomi/earth/proprietary/vendor/etc/init/wlan_assistant.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wlan_assistant.rc \
-    vendor/xiaomi/earth/proprietary/vendor/etc/mtk_omx_core.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_omx_core.cfg \
     vendor/xiaomi/earth/proprietary/vendor/etc/mtk_platform_codecs_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_platform_codecs_config.xml \
     vendor/xiaomi/earth/proprietary/vendor/etc/slp_conf:$(TARGET_COPY_OUT_VENDOR)/etc/slp_conf \
     vendor/xiaomi/earth/proprietary/vendor/etc/special_pws_channel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/special_pws_channel.xml \
@@ -426,12 +425,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/earth/proprietary/vendor/lib/libFrameRecord.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFrameRecord.so \
     vendor/xiaomi/earth/proprietary/vendor/lib/libHEVCdec_sa.ca7.android.so:$(TARGET_COPY_OUT_VENDOR)/lib/libHEVCdec_sa.ca7.android.so \
     vendor/xiaomi/earth/proprietary/vendor/lib/libJpgEncPipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libJpgEncPipe.so \
-    vendor/xiaomi/earth/proprietary/vendor/lib/libMtkOmxAdpcmDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxAdpcmDec.so \
-    vendor/xiaomi/earth/proprietary/vendor/lib/libMtkOmxAlacDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxAlacDec.so \
-    vendor/xiaomi/earth/proprietary/vendor/lib/libMtkOmxApeDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxApeDec.so \
-    vendor/xiaomi/earth/proprietary/vendor/lib/libMtkOmxCore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxCore.so \
-    vendor/xiaomi/earth/proprietary/vendor/lib/libMtkOmxGsmDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxGsmDec.so \
-    vendor/xiaomi/earth/proprietary/vendor/lib/libMtkOmxMp3Dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxMp3Dec.so \
     vendor/xiaomi/earth/proprietary/vendor/lib/libMtkSpeechEnh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkSpeechEnh.so \
     vendor/xiaomi/earth/proprietary/vendor/lib/libNoFpsActor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libNoFpsActor.so \
     vendor/xiaomi/earth/proprietary/vendor/lib/libTEECommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libTEECommon.so \
@@ -441,7 +434,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/earth/proprietary/vendor/lib/libaal_key.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaal_key.so \
     vendor/xiaomi/earth/proprietary/vendor/lib/libaal_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaal_mtk.so \
     vendor/xiaomi/earth/proprietary/vendor/lib/libaalservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaalservice.so \
-    vendor/xiaomi/earth/proprietary/vendor/lib/libadpcmdec_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadpcmdec_mtk.so \
     vendor/xiaomi/earth/proprietary/vendor/lib/libaedv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaedv.so \
     vendor/xiaomi/earth/proprietary/vendor/lib/libaudio_param_parser-vnd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio_param_parser-vnd.so \
     vendor/xiaomi/earth/proprietary/vendor/lib/libaudiocompensationfilter_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiocompensationfilter_vendor.so \
@@ -498,7 +490,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/earth/proprietary/vendor/lib/libjpeg-alpha_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpeg-alpha_vendor.so \
     vendor/xiaomi/earth/proprietary/vendor/lib/libladder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libladder.so \
     vendor/xiaomi/earth/proprietary/vendor/lib/libmml.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmml.so \
-    vendor/xiaomi/earth/proprietary/vendor/lib/libmp3dec_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmp3dec_mtk.so \
     vendor/xiaomi/earth/proprietary/vendor/lib/libmp4enc_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmp4enc_sa.ca7.so \
     vendor/xiaomi/earth/proprietary/vendor/lib/libmp4enc_xa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmp4enc_xa.ca7.so \
     vendor/xiaomi/earth/proprietary/vendor/lib/libmsbc_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmsbc_mtk.so \
@@ -520,7 +511,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/earth/proprietary/vendor/lib/libsixth.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsixth.so \
     vendor/xiaomi/earth/proprietary/vendor/lib/libspeech_enh_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspeech_enh_lib.so \
     vendor/xiaomi/earth/proprietary/vendor/lib/libspeechparser_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspeechparser_vendor.so \
-    vendor/xiaomi/earth/proprietary/vendor/lib/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrighthw.so \
     vendor/xiaomi/earth/proprietary/vendor/lib/libteei_daemon_vfs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libteei_daemon_vfs.so \
     vendor/xiaomi/earth/proprietary/vendor/lib/libthermalalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthermalalgo.so \
     vendor/xiaomi/earth/proprietary/vendor/lib/libudf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libudf.so \
@@ -633,7 +623,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/earth/proprietary/vendor/lib64/libMNN_CL.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMNN_CL.so \
     vendor/xiaomi/earth/proprietary/vendor/lib64/libMNN_Express.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMNN_Express.so \
     vendor/xiaomi/earth/proprietary/vendor/lib64/libMNN_Vulkan.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMNN_Vulkan.so \
-    vendor/xiaomi/earth/proprietary/vendor/lib64/libMtkOmxCore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMtkOmxCore.so \
     vendor/xiaomi/earth/proprietary/vendor/lib64/libNoFpsActor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libNoFpsActor.so \
     vendor/xiaomi/earth/proprietary/vendor/lib64/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCL.so \
     vendor/xiaomi/earth/proprietary/vendor/lib64/libSQLiteModule_VER_ALL.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSQLiteModule_VER_ALL.so \
@@ -869,7 +858,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/earth/proprietary/vendor/lib64/librpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librpc.so \
     vendor/xiaomi/earth/proprietary/vendor/lib64/libsensor_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensor_custom.so \
     vendor/xiaomi/earth/proprietary/vendor/lib64/libsl_fp_impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsl_fp_impl.so \
-    vendor/xiaomi/earth/proprietary/vendor/lib64/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefrighthw.so \
     vendor/xiaomi/earth/proprietary/vendor/lib64/libstereoinfoaccessor_vsdof.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstereoinfoaccessor_vsdof.so \
     vendor/xiaomi/earth/proprietary/vendor/lib64/libstorage_otp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstorage_otp.so \
     vendor/xiaomi/earth/proprietary/vendor/lib64/libsysenv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsysenv.so \
