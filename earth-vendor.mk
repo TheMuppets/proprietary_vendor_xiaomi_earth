@@ -782,7 +782,6 @@ PRODUCT_PACKAGES += \
     libutinterface_custom_md \
     libutinterface_md \
     libviagpsrpc \
-    libwifi-hal-mtk \
     libwo \
     libwpfa \
     libwvhidl \
